@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "PocketRights",
+    "subtitle": "Built with Zara",
+    "description": "PocketRights is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://12b42cebea934af2b4c0aff56b94e89e-bq5r-duycxiqcg-vistara.vercel.app",
+    "splashImageUrl": "https://12b42cebea934af2b4c0aff56b94e89e-bq5r-duycxiqcg-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://12b42cebea934af2b4c0aff56b94e89e-bq5r-duycxiqcg-vistara.vercel.app/image.png",
+    "tagline": "PocketRights",
+    "screenshotUrls": [
+      "https://12b42cebea934af2b4c0aff56b94e89e-bq5r-duycxiqcg-vistara.vercel.app/screenshot.png",
+      "https://12b42cebea934af2b4c0aff56b94e89e-bq5r-duycxiqcg-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://12b42cebea934af2b4c0aff56b94e89e-bq5r-duycxiqcg-vistara.vercel.app/api/webhook"
+  }
+}

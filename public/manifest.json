@@ -1,0 +1,14 @@
+{
+  "name": "PocketRights",
+  "description": "PocketRights is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://12b42ceb-ea93-4af2-b4c0-aff56b94e89e.vistara.dev",
+  "properties": {
+    "app": {
+      "name": "PocketRights",
+      "description": "PocketRights is a Base Mini App built with Zara.",
+      "url": "https://12b42ceb-ea93-4af2-b4c0-aff56b94e89e.vistara.dev",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
