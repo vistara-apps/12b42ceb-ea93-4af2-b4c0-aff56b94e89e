@@ -7,13 +7,15 @@ interface ActionCardProps {
   className?: string;
   variant?: 'default' | 'highlighted';
   onClick?: () => void;
+  style?: React.CSSProperties;
 }
 
 export function ActionCard({ 
   children, 
   className, 
   variant = 'default',
-  onClick 
+  onClick,
+  style 
 }: ActionCardProps) {
   return (
     <div 
@@ -25,6 +27,7 @@ export function ActionCard({
         className
       )}
       onClick={onClick}
+      style={style}
     >
       {children}
     </div>
