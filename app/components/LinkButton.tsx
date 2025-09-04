@@ -17,20 +17,19 @@ export function LinkButton({
   external = false 
 }: LinkButtonProps) {
   return (
-    <Button
-      variant={variant}
-      asChild
+    <a 
+      href={href}
+      target={external ? "_blank" : undefined}
+      rel={external ? "noopener noreferrer" : undefined}
       className="w-full"
     >
-      <a 
-        href={href}
-        target={external ? "_blank" : undefined}
-        rel={external ? "noopener noreferrer" : undefined}
-        className="flex items-center gap-2"
+      <Button
+        variant={variant}
+        className="w-full flex items-center gap-2"
       >
         {children}
         {external && <ExternalLink className="w-4 h-4" />}
-      </a>
-    </Button>
+      </Button>
+    </a>
   );
 }
